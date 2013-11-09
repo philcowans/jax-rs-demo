@@ -12,6 +12,7 @@ public class Subject {
     String name;
 
     public Subject() {
+	// This is only here because the annotations seem to require it - need to understand why.
     }
 
     public Subject(int _id, String _name) {

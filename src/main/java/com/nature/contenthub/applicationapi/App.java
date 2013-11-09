@@ -12,7 +12,6 @@ public class App {
     @Path("/subjects/{id}")
     @Produces("application/json")
     public Subject showSubject(@PathParam("id") int id) {
-	Subject subject = new Subject(id, "Subject Name");
-	return subject;
+	return new Subject(id, "Subject Name");
     }
 }

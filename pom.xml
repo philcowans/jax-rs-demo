@@ -28,13 +28,12 @@
       <artifactId>jaxb-impl</artifactId>
       <version>2.2.7</version>
     </dependency>
-    <!-- (Put back when we actually have tests) 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency> -->
+    </dependency>
   </dependencies>
   <build>
     <finalName>application-api</finalName>
