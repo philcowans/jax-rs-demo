@@ -19,8 +19,11 @@ public class PaginatedCollection<E> {
     @XmlAttribute
     int totalElements;
 
-    public PaginatedCollection() {
-	collection = new ArrayList<E>();
+    public PaginatedCollection(List<E> _collection, int _page, int _perPage, int _totalElements) {
+	collection = _collection;
+	page = _page;
+	perPage = _perPage;
+	totalElements = _totalElements;
     }
 
     public void add(E element) {
